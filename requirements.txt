@@ -1,0 +1,20 @@
+# Core
+pydantic==2.*
+
+# Backend API
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# API client
+anthropic>=0.7.0
+
+# Development & Testing
+pytest>=7.4.0
+httpx>=0.25.0  # requerido por fastapi.testclient
+
+# --- Fuera del MVP, para cuando escale (ver README > Roadmap) ---
+# sqlalchemy / alembic   -> si se agrega historial persistente
+# python-jose / passlib  -> si se agrega login de administración
+# gunicorn               -> para correr múltiples workers en producción
+#                           (el rate limiter en memoria de este MVP no
+#                           se comparte entre workers; ver backend/utils/rate_limit.py)
