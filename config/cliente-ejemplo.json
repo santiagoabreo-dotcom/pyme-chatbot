@@ -1,0 +1,19 @@
+{
+  "id": "cliente-1",
+  "display_name": "Tienda Online XYZ",
+  "allowed_domain": "ejemplo.com",
+  "identity": {
+    "name": "Maya",
+    "role": "Asistente de Ventas",
+    "tone": "amigable y profesional"
+  },
+  "knowledge": {
+    "business_info": "Tienda Online XYZ vende indumentaria deportiva. Envíos a todo el país en 48-72hs.",
+    "faq": "¿Hacen cambios? Sí, dentro de los 30 días con etiqueta original.\n¿Tienen local físico? No, somos 100% online.",
+    "policies": "Devoluciones sin cargo dentro de los 30 días. Garantía de fábrica 6 meses."
+  },
+  "api_key_env": "CLIENTE1_ANTHROPIC_API_KEY",
+  "model": "claude-haiku-4-5-20251001",
+  "max_tokens": 300,
+  "rate_limit_per_minute": 20
+}
